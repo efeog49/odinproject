@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.lf-btn {
+    background: black;
+    color: white;
+}
+.rt-btn {   
+    background: yellow;
+}
+.lf-btn,.rt-btn {
+    font-size: 28px;
+    font-family: Helvetica, Times New Roman, sans-serif;
+}
