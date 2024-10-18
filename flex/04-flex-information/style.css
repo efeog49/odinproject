@@ -20,7 +20,7 @@ img {
 }
 .my-flex-wrper {
     display: flex;
-    margin: 38px;
+    margin-top: 38px;
     justify-content: center;
     gap: 52px;
     flex-flow: row wrap;
