@@ -16,6 +16,10 @@ body {
     background: darkmagenta;
     color: white;
     flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    
 
     
 }
@@ -31,6 +35,9 @@ body {
     background: #eee;
     color: darkmagenta;
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     
 }
 
@@ -54,5 +61,22 @@ body {
     border-radius: 4px;
     flex: 1 1 220px;
     padding: 10px;
+    text-align: justify;
     
+}
+.sidebar ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px;
+
+}
+.sidebar a {
+    text-decoration: none;
+    color: #eee;
+}
+.sidebar li {
+    flex-shrink: 0;
+    width: 100%;
 }
