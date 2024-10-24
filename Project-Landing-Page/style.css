@@ -24,4 +24,8 @@
     --quote-section-font-style: light italic;
     --quote-section-txt-color: #1F2937;
 }
-
+img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
