@@ -6,6 +6,7 @@
     padding: 0;
 }
 :root {
+    --font-family: "Roboto", serif;
     --dark-bg-color-hder-fter: #1F2937;
     --main-hero-txt-color: #F9FAF8;
     --main-hero-font-size: 48px;
