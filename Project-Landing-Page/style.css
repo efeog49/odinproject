@@ -29,3 +29,45 @@ img {
     width: 100%;
     height: auto;
 }
+body {
+    display: flex;
+    flex-direction: column;
+}
+.nav-wrper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.hder-wrper {
+    padding: 20px;
+    flex: 1;
+}
+.nav-wrper ul {
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+.nav-wrper a {
+    text-decoration: none;
+}
+.main-wrper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 3;
+}
+.main-section-wrper {
+    display: flex;
+}
+.services-section-wrper {
+    display: flex;
+}
+.qt-section-wrper {
+    display: flex;
+}
+.contact-section-wrper {
+    display: flex;
+}
+.footer-wrper {
+    flex: 1;
+    display: flex;
+}
