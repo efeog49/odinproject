@@ -1,5 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
+:root {
+    --dark-bg-color-hder-fter: #1F2937;
+    --main-hero-txt-color: #F9FAF8;
+    --main-hero-font-size: 48px;
+    --main-hero-font-weight: 900;
+    --secondary-hder-txt-color: #E5E7EB;
+    --secondary-hder-font-size: 24px;
+    --hder-logo-txt-font-size: 24px;
+    --hder-logo-txt-color: #F9FAF8;
+    --button-color-call-to-action: #3882F6
+    --info-section-font-size: 36px;
+    --info-section-txt-color: #1F2937;
+    --info-section-font-weight: 900;
+    --quote-section-bg-color: #E5E7EB;
+    --quote-section-font-size: 36px;
+    --quote-section-font-style: light italic;
+    --quote-section-txt-color: #1F2937;
+}
+
