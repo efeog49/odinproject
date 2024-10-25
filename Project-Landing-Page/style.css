@@ -23,6 +23,7 @@
     --quote-section-font-size: 36px;
     --quote-section-font-style: light italic;
     --quote-section-txt-color: #1F2937;
+    --button-font-weight: 600;
 }
 img {
     display: block;
@@ -33,7 +34,7 @@ button {
     background: var(--button-color-call-to-action);
     color: var(--hder-logo-txt-color);
     padding: 10px 20px;
-    font-weight: var(--info-section-font-weight);
+    font-weight: var(--button-font-weight);
     font-size: var(--secondary-hder-font-size);
     border-radius: 12px;
     cursor: pointer;
@@ -76,6 +77,8 @@ body {
     display: flex;
     gap: 20px;
     justify-items: center;
+    flex-grow: 1;
+    flex-wrap: wrap;
     
 }
 .main-section-wrper h1 {
@@ -88,6 +91,14 @@ body {
     padding-bottom: 10px;
     
 }
+.left-inner-main-section {
+    flex-grow: 1;
+    flex-basis: 350px;
+}
+.right-inner-main-section {
+    flex: 1;
+    flex-basis: 400px
+}
 .card-wrper h3 {
 font-size: var(--info-section-font-weight);
 color: var(--info-section-txt-color);
@@ -98,6 +109,11 @@ text-align: center;
 }
 .card-wrper {
     padding: 20px 80px 40px;
+    display: flex;
+    flex-flow: column wrap;
+    flex-grow: 1;
+    align-items: center;
+    flex-wrap: wrap;
 }
 .services-section-wrper {
     display: flex;
@@ -127,18 +143,24 @@ text-align: center;
 }
 .contact-section-wrper {
     display: flex;
-    padding: 80px;
     justify-content: center;
     align-items: center;
+    flex-grow: 1;
+    padding: 40px 80px;
+    flex-wrap: wrap;
 
     
 }
 .inside-contact-wrper {
     background: var(--button-color-call-to-action);
     display: flex;
-    padding: 40px 80px;
     border-radius: 12px;
     color: var(--hder-logo-txt-color);
+    justify-content: space-between;
+    flex-grow: 1;
+    padding: 40px 60px;
+    flex-wrap: wrap;
+    
 
 }
 .footer-wrper {
