@@ -39,6 +39,7 @@ button {
     border-radius: 12px;
     cursor: pointer;
     display: block;
+    border: 2px solid white;
     
 }
 body {
