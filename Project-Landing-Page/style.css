@@ -51,11 +51,13 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 .hder-wrper {
     background: var(--dark-bg-color-hder-fter);
     padding: 20px 80px;
     flex: 1;
+    flex-wrap: wrap;
 }
 .nav-wrper ul {
     display: flex;
@@ -66,6 +68,19 @@ body {
     text-decoration: none;
     font-size: var(--hder-logo-txt-font-size);
     color: var(--hder-logo-txt-color);
+}
+.nav-logo {
+    flex: 1 0 158px;
+}
+.nav-tab-wrper {
+    flex: 1 0 779px;
+    display: flex;
+    justify-content: end;
+    flex-wrap: wrap;
+}
+.nav-tabs a {
+    flex: 0 0 158px;
+
 }
 .main-wrper {
     display: flex;
