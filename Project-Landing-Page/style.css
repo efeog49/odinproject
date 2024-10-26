@@ -78,7 +78,7 @@ body {
     justify-content: end;
     flex-wrap: wrap;
 }
-.nav-tabs a {
+.nav-tabs {
     flex: 0 0 158px;
 
 }
