@@ -60,19 +60,24 @@ img {
     flex-wrap: wrap; 
 
 }
+.information-card-wraper .card-figure-wraper  {
+   flex: 0 1 200px;
+}
 .information-card-wraper .card-img {
-    width: 200px;
+    min-width: 200px;
     height: 150px;
     border: 2px solid lightblue;
     border-radius: 15px;
 }
+
 .card-wraper {
     display: flex;
     flex-wrap: wrap;
-    flex: 1 1 250px;
+    flex: 1 1 200px;
     justify-content: center;
+    align-items: center;
 }
 .information-card-wraper p {
     text-align: center;
-    flex: 0 0 205px;
+    flex-basis: 199px;
 }
