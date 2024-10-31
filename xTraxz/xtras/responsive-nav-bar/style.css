@@ -10,6 +10,10 @@ img {
       height: auto;
       /*flex: 1 1 90;*/
 }
+.wraper {
+    display: flex;
+    flex-direction: column;
+}
 .main-wrper {
     display: flex;
     border: 2px solid black;
@@ -30,6 +34,45 @@ img {
 .main-wrper li {
     text-decoration: none;
     flex: 1 1 250px;
-    background: lightblue;
     text-align: center;
+}
+.main-section {
+    display: flex;
+    flex-wrap: wrap;
+}
+.main-section .first-section {
+    flex: 1 1 371px;
+
+}
+.main-section .img-section {
+    flex: 1 1 371px;
+}
+.information-section {
+    display: flex;
+    flex-direction: column;
+    
+}
+.information-section h2 {
+    text-align: center;
+}
+.information-card-wraper {
+    display: flex;
+    flex-wrap: wrap; 
+
+}
+.information-card-wraper .card-img {
+    width: 200px;
+    height: 150px;
+    border: 2px solid lightblue;
+    border-radius: 15px;
+}
+.card-wraper {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1 1 250px;
+    justify-content: center;
+}
+.information-card-wraper p {
+    text-align: center;
+    flex: 0 0 205px;
 }
