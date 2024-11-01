@@ -1,7 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root {
+    --main-font-family: "Roboto", serif;
+    --hder-fter-bg-color-dark: #1F2937;
+    --h1-font-size: 48px;
+    --h1-font-color: #F9FAF8;
+    --h1-font-weight: 900;
+    --p-nav-font-size: 18px;
+    --p-nav-color: #E5E7EB;
+    --hder-logo-font-size: 24px;
+    --hder-logo-color: #F9FAF8;
+    --button-bg-call-to-action: #3882F6;
+    --article-h2-font-size: 36px;
+    --article-h2-color: #1F2937;
+    --article-h2-font-weight: 900;
+    --fig-bq-bg-color: #E5E7EB;
+    --fig-bq-font-size: 36px;
+    --fig-bq-font-style: light italic;
+    --fig-bq-color: #1F2937;
+
+
+}
+
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+}
+body {
+    font-family: "Roboto" "serif";
 }
 img {
       border: 2px solid black;
@@ -15,6 +42,7 @@ img {
     flex-direction: column;
 }
 .main-wrper {
+    background: var(--hder-fter-bg-color-dark);
     display: flex;
     border: 2px solid black;
     flex-wrap: wrap;
@@ -39,6 +67,16 @@ img {
 .main-section {
     display: flex;
     flex-wrap: wrap;
+    background: var(--hder-fter-bg-color-dark);
+}
+.main-section h2 {
+    font-size: var(--h1-font-size);
+    color: var(--h1-font-color);
+    font-weight: var(--h1-font-weight);
+}
+.main-section p, .wraper li {
+    font-size: var(--p-nav-font-size);
+    color: var(--p-nav-color);
 }
 .main-section .first-section {
     flex: 1 1 371px;
@@ -54,6 +92,9 @@ img {
 }
 .information-section h2 {
     text-align: center;
+    font-size: var(--article-h2-font-size);
+    color: var(--article-h2-color);
+    font-weight: var(--article-h2-font-weight);
 }
 .information-card-wraper {
     display: flex;
@@ -80,4 +121,34 @@ img {
 .information-card-wraper p {
     text-align: center;
     flex-basis: 199px;
+}
+.button-wraper button {
+    background: var(--button-bg-call-to-action);
+
+}
+.qt-wraper {
+    background: var(--fig-bq-bg-color);
+    color: var(--fig-bq-color);
+    font-size: var(--fig-bq-font-size);
+    font-style: var(--fig-bq-font-style);
+}
+.call-style-wraper {
+    background: var(--button-bg-call-to-action);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.call-wraper h4 {
+    font-size: var(--article-h2-font-size);
+    color: var(--p-nav-color);
+    
+}
+.call-wraper p {
+    font-size: var(--p-nav-font-size);
+    color: var(--p-nav-color);
+
+}
+footer {
+    background: var(--hder-fter-bg-color-dark);
+    text-align: center;
 }
