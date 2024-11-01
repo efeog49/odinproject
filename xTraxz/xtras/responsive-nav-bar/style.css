@@ -136,7 +136,10 @@ img {
     background: var(--button-bg-call-to-action);
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    text-align: center;
+    flex-wrap: wrap;
+    
+    
 }
 .call-wraper h4 {
     font-size: var(--article-h2-font-size);
@@ -146,6 +149,16 @@ img {
 .call-wraper p {
     font-size: var(--p-nav-font-size);
     color: var(--p-nav-color);
+
+}
+.call-style-wraper .call-wraper {
+    flex: 1 1 954px;
+    display: flex;
+    flex-direction: column;
+}
+.call-style-wraper .button-wraper {
+    flex: 1 1 161px;
+    
 
 }
 footer {
